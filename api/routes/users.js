@@ -76,7 +76,6 @@ router.get("/friends/:userId", async (req, res) => {
 });
 
 //follow a user
-
 router.put("/:id/follow", async (req, res) => {
   if (req.body.userId !== req.params.id) {
     try {
@@ -87,7 +86,7 @@ router.put("/:id/follow", async (req, res) => {
         await currentUser.updateOne({ $push: { followings: req.params.id } });
         res.status(200).json("user has been followed");
       } else {
-        res.status(403).json("you allready follow this user");
+        res.status(403).json("you already follow this user");
       }
     } catch (err) {
       res.status(500).json(err);
@@ -98,7 +97,6 @@ router.put("/:id/follow", async (req, res) => {
 });
 
 //unfollow a user
-
 router.put("/:id/unfollow", async (req, res) => {
   if (req.body.userId !== req.params.id) {
     try {
