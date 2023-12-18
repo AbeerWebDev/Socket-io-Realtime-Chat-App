@@ -39,7 +39,6 @@ The primary goal of this project is to showcase proficiency in full-stack develo
 - Real-time messaging using Socket.IO
 - Personalized user profiles
 - Seamless navigation with React Router
-- Responsive design with Bootstrap
 - Secure authentication with Bcrypt
 
 ## Screenshots
