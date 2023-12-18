@@ -30,7 +30,7 @@ The primary goal of this project is to showcase proficiency in full-stack develo
 - JavaScript
 - HTML
 - CSS
-- JWT (JSON Web Tokens)
+- Bcrypt
 
 ## Features
 - User registration and login
