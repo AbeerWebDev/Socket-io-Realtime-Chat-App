@@ -86,4 +86,4 @@ The Social Media App is currently in a completed state.
 Special thanks to the developer communities for React, Node.js, and Socket.IO.
 
 ## Contact
-Created by [Abeer Ahmed] - [LinkedIn Profile](https://www.linkedin.com/in/abeerwebdev/) - Feel free to contact me for any inquiries or feedback.
+Created by Abeer Ahmed - [LinkedIn Profile](https://www.linkedin.com/in/abeerwebdev/) - Feel free to contact me for any inquiries or feedback.
